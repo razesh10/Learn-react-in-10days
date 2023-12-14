@@ -1,13 +1,12 @@
-
 import './App.css';
-
+import Gallery from './component/Gallery';
 function App() {
   return (
     <>
-    <div className="App">
-      <h1>Rajesh Chaudhary</h1>
-      
-    </div>
+     <h1>Hii Everyone</h1>
+     <p>Hey I am learning React</p>
+          <Gallery />
+
     </>
   );
 }

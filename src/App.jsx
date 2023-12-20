@@ -1,12 +1,11 @@
-import './App.css';
-import Gallery from './component/Gallery';
+import "./App.css";
+import HeroSection from "./component/HeroSection/HeroSection";
+import Nav from "./component/Navbar/Nav";
 function App() {
   return (
     <>
-     <h1>Hii Everyone</h1>
-     <p>Hey I am learning React</p>
-          <Gallery />
-
+      <Nav />
+      <HeroSection />
     </>
   );
 }

@@ -1,0 +1,45 @@
+.btn {
+  color: var(--heading-color);
+  font-size: 18px;
+  font-weight: 700;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  text-align: inherit;
+  font: inherit;
+  border-radius: 5px;
+  appearance: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.btn svg {
+  height: 25px;
+  display: block;
+}
+
+.nav-btn {
+  background-color: var(--primary-color);
+  padding: 5px 20px;
+  stroke: var(--heading-color);
+}
+
+.body-btn {
+  background-color: var(--primary-color);
+  padding: 7px 20px;
+}
+
+.outline-btn {
+  padding: 5px 20px;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.outline-btn svg {
+  stroke: var(--primary-color);
+}
+.body-btn svg {
+  stroke: var(--heading-color);
+}
